@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Virtual Engines</title>
+    <style>
+        title {
+            font-family: "Verdana";
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            scroll-behavior: smooth;
+            background-color: #ccb6a3;
+            overflow-x: hidden;
+            max-width: 1170px;
+            margin: 0 auto;
+            width: 85%;
+            padding: 2vh;
+        }
+        section {
+            display: flex;
+            margin: 2vh auto;
+            padding: 6%;
+            width: 88%;
+            max-width: 50vh;
+            height: auto;
+            max-height: 200vh;
+            border-radius: 10px;
+            color: #334870;
+            background-color: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+            font-size: 1em;
+            transition: opacity 1s ease-in-out;
+            opacity: 0;
+            overflow: hidden;
+        }
+        .visible {
+            opacity: 1;
+        }
+        h1 {
+            text-align: center;
+            justify-content: center;
+            margin-top: 5%;
+            margin: 0 auto;
+            width: 90%;
+            font-size: clamp(0.5rem, 4.5vw, 1.1rem);
+            font-family: "Verdana";
+        }
+        p {
+            text-align: center;
+            justify-content: center;
+            width: 90%;
+            padding: 10px;
+            margin: 0 auto;
+            font-size: clamp(0.5rem, 3vw, 0.6rem);
+            font-family: "Verdana";
+        }
+    </style>
+</head>
+<body>
+
+<script>
+</script>
+
+</body>
+
+</html>
