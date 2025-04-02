@@ -17,8 +17,49 @@
             overflow-x: hidden;
             max-width: 2170px;
             margin: 0 auto;
+            margin-top: 100px;
             width: 85%;
             padding: 2vh;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #333;
+            color: white;
+            padding: 0 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        
+        .logo img {
+            height: 40px;
+        }
+        
+        .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu ul li {
+            margin: 0 15px;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .menu ul li a:hover {
+            text-decoration: underline;
         }
         section {
             display: flex;
@@ -64,6 +105,19 @@
     </style>
 </head>
 <body>
+    <header class="freezebar">
+        <div class="logo">
+        </div>
+        <nav class="menu">
+             <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </nav>
+    </header>
 <section id=main.3dmodelling>
     <h1>3D modelling</h1>
 </section>
